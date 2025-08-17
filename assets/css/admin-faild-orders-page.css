@@ -1,0 +1,99 @@
+  /* ======= Delete modal : Js confirmation modal ======= */
+
+  td.id.column-id.has-row-actions.column-primary {
+      display: flex;
+  }
+
+  .row-actions {
+      padding-left: 10px;
+  }
+
+  .incomplete-order-table {
+      padding: 10px 10px;
+      background: #fdfeff;
+      border-radius: 10px;
+      margin: 40px 0 0 0;
+  }
+
+  /* ========= First section : summary statistic ========= */
+  p.search-box {
+      margin-top: -30px;
+  }
+
+  /* .export-csv {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+  } */
+  .rs-ob-summary-boxes {
+      display: flex;
+      gap: 20px;
+      margin: 20px 0;
+      flex-wrap: nowrap;
+  }
+
+  .rs-ob-box {
+      flex: 1 1 180px;
+      background: #fdfeff;
+      border-left: 4px solid #007cba;
+      padding: 15px 20px;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+
+  .rs-ob-box h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: #444;
+  }
+
+  .rs-ob-box p {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 600;
+      color: #222;
+  }
+
+  .rs-ob-box.status-cart {
+      border-left-color: #f39c12;
+  }
+
+  .rs-ob-box.status-checkout {
+      border-left-color: #3498db;
+  }
+
+  .rs-ob-box.status-failed {
+      border-left-color: #e74c3c;
+  }
+
+  .rs-ob-box.status-revenue {
+      border-left-color: #2ecc71;
+  }
+
+  /*============= Export button ============*/
+  .export-failed-orderlist {
+
+      margin: 10px 0 !important;
+      background-color: #ececec !important;
+      color: black !important;
+      border: 1px solid rgb(2, 110, 198) !important;
+  }
+
+  .export-failed-orderlist:hover {
+      background-color: rgb(5, 77, 136) !important;
+      color: white !important;
+
+  }
+
+
+  /* ============= Faild orders Table ============ */
+  th#cart_contents {
+      width: 230px;
+  }
+
+  th#email {
+      width: 180px;
+  }
+  .tablenav.top {
+      padding-top: 15px;
+  }

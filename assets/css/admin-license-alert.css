@@ -1,0 +1,45 @@
+.rs-license-blocker-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    background: #f9f9f9;
+}
+
+.rs-license-box {
+    background: #ffffff;
+    padding: 40px 50px;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+}
+
+.rs-license-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.rs-license-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.rs-license-btn {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.rs-license-btn:hover {
+    background-color: #006799;
+}

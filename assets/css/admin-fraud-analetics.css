@@ -1,0 +1,205 @@
+  /* Tabs  */
+
+  .nav-tab-wrapper {
+      border: none !important;
+  }
+
+  h2.nav-tab-wrapper a.nav-tab {
+      border-radius: 5px 5px;
+  }
+
+  a.nav-tab.nav-tab-active {
+      background: white;
+      box-shadow: 2px 0 2px rgb(214, 214, 214);
+      padding-bottom: 15px;
+      border-radius: 5px 5px 0 0 !important;
+  }
+
+
+
+  /* tab container  */
+
+  div#tab-content {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 1px 2px 5px rgb(214, 214, 214);
+  }
+
+
+
+
+  /* Fraud analetics dashboard : first section  */
+  .rs-metrics-row {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+  }
+
+  .rs-metric-card {
+      flex: 1 1 160px;
+      padding: 16px;
+      border-left: 4px solid #cc0000;
+      background: #fefefe;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+  }
+
+  .rs-metric-card h4 {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+  }
+
+  .rs-metric-card p {
+      font-size: 22px;
+      margin: 5px 0 0;
+      color: #111;
+      font-weight: 600;
+  }
+
+
+  /* =========== Map section styling ============ */
+  .Heatmap-section {
+      /* margin-top: 40px; */
+      /* box-shadow: 0 2px 2px rgb(198, 198, 198); */
+      /* border-radius: 10px; */
+  }
+
+  .map-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10px;
+      /* background: white; */
+      /* border-radius: 10px 10px 0 0; */
+  }
+
+  .leaflet-interactive.glow-hovered {
+      filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+      transition: all 0.2s ease-in-out;
+  }
+
+  .district-hover {
+      background: rgba(255, 255, 255, 0.135) !important;
+  }
+
+
+
+  .total-stats {
+      /* background: #f9fafb; */
+      font-weight: bold;
+      /* border-radius: 0 0 10px 10px; */
+      /* padding: 2px 10px; */
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .total-stats p {
+      align-items: center;
+      display: flex;
+      padding-right: px;
+  }
+
+  .total-stats p span {
+      font-size: 20px;
+      font-weight: 700;
+      padding-left: 5px;
+  }
+
+  /* Card on map click */
+  div#rs-info-cards {
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: space-between; */
+  }
+
+  .rs-info-card {
+      border: 1px solid #ccc;
+      border-left: 5px solid #0073aa;
+      background: #fff;
+      padding: 0 10px 10px;
+      width: 20%;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      position: relative;
+      margin: 0 20px 20px 0;
+  }
+
+  .rs-info-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
+
+  .rs-info-card-body p {
+      margin: 6px 0;
+      font-size: 13px;
+      line-height: 1.4;
+  }
+
+  .rs-close-card {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: #999;
+  }
+
+  .rs-close-card:hover {
+      color: red;
+  }
+
+  /* ================= Section 3 : Order refulas graph chart ================ */
+  .order_graph_head {
+      /* margin-top: 10px; */
+      display: flex;
+      justify-content: space-between;
+      align-content: space-around;
+      /* background: white; */
+      padding: 10px 20px;
+      /* border-radius: 10px 10px 0 0; */
+      align-items: flex-end;
+  }
+
+  .export-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: -20px;
+  }
+
+  .fraud_graph {
+      padding: 20px;
+      border: 1px solid #ddd;
+      background: #fff;
+      border-radius: 0 0 10px 10px;
+      box-shadow: 0 2px 2px rgb(198, 198, 198);
+  }
+
+  /* ============= Section 4 :  Product-Level Risk Insights ============= */
+  .product_risk_wrap {
+      /* background: white; */
+      padding: 10px 10px;
+      /* border-radius: 10px; */
+      /* box-shadow: 0 2px 2px #e2e2e2; */
+  }
+
+
+  .product_risk_wrap h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: -35px;
+  }
+
+  /* ============= Section 5 :  Customer-Level Risk Insights ============= */
+  .customer-risk-wrap {
+      padding: 10px;
+  }
+
+  div#tab-content h2 {
+      margin: 0px;
+      padding-top: 20px;
+  }

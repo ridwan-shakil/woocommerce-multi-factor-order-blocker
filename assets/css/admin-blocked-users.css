@@ -1,0 +1,118 @@
+
+.rs-license-blocker-wrap {
+    padding: 20px;
+    background: #fdfeff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+    max-width: 900px;
+}
+
+form .form-table th {
+    width: 140px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+form .form-table td input,
+form .form-table td textarea,
+form .form-table td select {
+    max-width: 400px;
+    padding: 2px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+select.Ob_block_expire_selector {
+    width: 80px;
+}
+
+.widefat th {
+    background-color: #f9f9f9;
+}
+
+table.widefat td,
+table.widefat th {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.widefat tr:nth-child(even) {
+    background: #ffffff;
+}
+
+
+/* ============================= */
+.ob_block_any_user {
+    background: #ffffff;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 8px gray;
+    margin-bottom: 30px;
+}
+
+.ob_block_any_user_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ob_block_any_user_heading h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button.button.button-primary {
+    padding: 3px 25px;
+}
+
+button.button.button-primary:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.Ob_duration_input {
+    width: 80px;
+    text-align: center;
+}
+
+input {
+    padding-left: 5px !important;
+}
+
+select.Ob_block_expire_selector {
+    padding-left: 5px !important;
+    margin-right: 10px;
+}
+
+/**
+*-------- Blocked users table --------
+*/
+.widefat th {
+    background-color: #2271b1;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.widefat.striped {
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 8px gray;
+    border: 0px !important;
+}
+
+.Ob_blocked_list_heading {
+    background: #2271b1;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -1px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+button.button-link.delete:hover {
+    font-weight: 600;
+}

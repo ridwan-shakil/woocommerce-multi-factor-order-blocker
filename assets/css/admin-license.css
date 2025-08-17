@@ -1,0 +1,108 @@
+.license-page {
+    width: 100vw;
+    height: 900px;
+}
+
+
+
+.ob-license-wrapper {
+    max-width: 600px;
+    margin-top: 30px;
+    padding: 20px 25px;
+    background: #fdfeff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.ob-license-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #222;
+}
+
+.ob-license-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ob-license-form label {
+    font-weight: 500;
+    color: #333;
+}
+
+.ob-license-input {
+    padding: 12px 16px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ob-license-btn {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: start;
+}
+
+.ob-license-btn:hover {
+    background-color: #006799;
+}
+
+.ob-license-status {
+    margin-top: 20px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.ob-valid {
+    background-color: #e7f5e7;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.ob-invalid {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* =========================== */
+.license-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rs_ob_license_btns {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin-top: -35px;
+}
+
+.wp-core-ui .button-secondary {
+    color: #000000;
+    background: #ffc297;
+    border: none;
+    vertical-align: top;
+}
+
+
+
+.wp-core-ui .button-secondary:hover {
+    background-color: rgb(255, 84, 84);
+}
+
+span.ob-expiry {
+    float: right;
+}
